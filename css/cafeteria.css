@@ -17,7 +17,7 @@ h1 {
   text-align: center;
   font-family: "pacifico";
   font-size: 40pt;
-  padding-top:20px;
+  padding-top: 20px;
   text-shadow: 5px 5px 10px rgba(253, 135, 0, 0.562);
 }
 
@@ -34,23 +34,43 @@ nav ul li {
 nav {
   text-align: center;
   padding-top: 10px;
-  margin-top:10px;
+  margin-top: 10px;
   /* rgba deixa transparante, 0 transparente 1 visivel, o ultimo valor q deixa um dos 2, quanto mais proximo do 0 é transparente */
   background-color: rgba(255, 255, 255, 0.9);
-
 }
 
-nav ul li a{
-    color:rgb(0, 0, 0);
-    /* para retirar o sublinhado dos links utilizaremos tex-decoration com o valor none */
-    text-decoration: none;
-    /* deixa em negrito */
-    /* font-weight: bold;  */
-    font-family: "lobster";
+nav ul li a {
+  color: rgb(0, 0, 0);
+  /* para retirar o sublinhado dos links utilizaremos tex-decoration com o valor none */
+  text-decoration: none;
+  /* deixa em negrito */
+  /* font-weight: bold;  */
+  font-family: "lobster";
 }
 
-nav ul li a:hover{
-    text-decoration: underline;
-    color:orangered
+nav ul li a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
 
+footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  color: white;
+}
+
+footer div a {
+  color: red;
+  text-decoration: none;
+}
+
+div ul li {
+  display: inline-block;
+  /* margin left e right, para separar um do outro */
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }

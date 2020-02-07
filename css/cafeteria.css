@@ -1,0 +1,56 @@
+/* (*) serve para selecionar tudo */
+* {
+  margin: 0; /*ZERAR A MARGEM EXTERNA DOS ELEMENTOS*/
+  padding: 0; /*ZERAR A MARGEM INTERNA DOS ELEMENTOS*/
+}
+
+header {
+  /* Vamos adicionar uma imagem de fundo ao cabeçalho */
+  background-image: url("../img/paredee.jpg");
+  background-position: 0px -100px;
+  transition: ease 1s;
+  height: 190px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "pacifico";
+  font-size: 40pt;
+  padding-top:20px;
+  text-shadow: 5px 5px 10px rgba(253, 135, 0, 0.562);
+}
+
+/* Vamos formatar os elementos de li para ficar um ao lado do outro com o comando display */
+nav ul li {
+  /* Dispor os links um ao lado do outro */
+  display: inline-block;
+  /* border: 1px solid rgb(255, 255, 255);  deixa uma borda em volta */
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+nav {
+  text-align: center;
+  padding-top: 10px;
+  margin-top:10px;
+  /* rgba deixa transparante, 0 transparente 1 visivel, o ultimo valor q deixa um dos 2, quanto mais proximo do 0 é transparente */
+  background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+nav ul li a{
+    color:rgb(0, 0, 0);
+    /* para retirar o sublinhado dos links utilizaremos tex-decoration com o valor none */
+    text-decoration: none;
+    /* deixa em negrito */
+    /* font-weight: bold;  */
+    font-family: "lobster";
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color:orangered
+
+}

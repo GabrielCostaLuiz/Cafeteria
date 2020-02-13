@@ -188,3 +188,63 @@ p {
   width: 60%;
   float: left;
 }
+
+form{
+  box-shadow:0 10px 1px black;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  font-family: catamaran
+}
+
+label{
+  /* para dispor os elementos um abaixo do outro utilizaremos o comando display block */
+  display: block;
+  font-weight: bold;
+}
+
+input[type=text],input[type=tel],input[type=email]{
+  width:100%;
+  height:25px;
+  margin-bottom:10px;
+  border:0;
+  border-bottom:1px solid silver;
+}
+
+input[type=tel]{
+  width:13%;
+}
+
+#sexo{
+  display:block;
+  margin-bottom:15px;
+}
+
+select{
+  padding:5px;
+  width:25%;
+}
+
+select.option:hover{
+  background-color: black;
+  color:white;
+  cursor:pointer;
+  padding:5px;
+}
+
+textarea{
+width:50%;
+height:100px;
+display:block;
+}
+
+input[type=submit]{
+  width:10%;
+  display:block;
+  border:0;
+  color:white;
+  padding:5px;
+  cursor:pointer;
+  background-color: black;;
+}
